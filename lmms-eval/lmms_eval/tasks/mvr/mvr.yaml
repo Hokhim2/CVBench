@@ -1,7 +1,7 @@
-dataset_path: /t-ng/multi-video/mvr_dataset
+dataset_path: ../mvr_dataset
 dataset_kwargs:
   token: True
-  cache_dir: /t-ng/multi-video/test
+  cache_dir: ../Video-R1/src/r1-v/Evaluation/CVBench
   video: True
   load_from_disk: True
   #data_dir: ../../../dataset/dataset.csv
