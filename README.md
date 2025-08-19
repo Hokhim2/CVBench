@@ -69,7 +69,7 @@ This repository contains code adapted from `lmms-eval` and `Video-R1`, with the 
 
 ## ⚡ Getting Started
 
-### 1. Clone this repo
+### Clone this repo
 
 ```bash
 git clone https://github.com/Hokhim2/CVBench.git
