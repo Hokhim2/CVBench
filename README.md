@@ -46,7 +46,7 @@ You can learn more about CVBench in the [dataset README](https://huggingface.co/
     <img src="assets/figure2.png" width="100%" height="100%">
 </p>
 
-Our dataset showcases diverse cross-video reasoning scenarios, from **object association** across multiple viewpoints to **event correlation** between temporally separated videos. Each example demonstrates the complexity of reasoning required when models must understand relationships that span across different video contexts.
+Our dataset showcases diverse cross-video reasoning scenarios across three core task categories: **object association** (identifying shared entities across multiple viewpoints), **event correlation** (linking temporal or causal chains between videos), and **complex reasoning** (integrating commonsense understanding of interrelationships). Each example demonstrates the complexity of reasoning required when models must understand relationships that span across different video contexts.
 
 ---
 
@@ -72,20 +72,29 @@ This repository contains code adapted from `lmms-eval` and `Video-R1`, with the 
 ### 1. Clone this repo
 
 ```bash
-git clone https://github.com/your-org/CVBench-eval.git
-cd CVBench-eval
+git clone https://github.com/Hokhim2/CVBench.git
+cd CVBench
 ```
 
 ---
 
 ## 🎮 Usage
 
-Since our work focuses on **multi-video evaluation with large models**, we made modifications based on the official codebase to support multi-video inputs. Please refer to `./Eval/Video-R1/src/eval_bench.py` for detailed implementation.
+Since our work focuses on **multi-video evaluation with large models**, we made modifications based on the official codebase to support multi-video inputs. Please refer to `Video-R1/src/eval_bench.py` for detailed implementation.
 
 ### 🎬 Video-R1 Evaluation
 
-> 📂 Ensure that your **video dataset** and the corresponding **JSON annotation file** are placed under `./Eval/Video-R1/src/r1-v/Evaluation/`.
-
+> 📂 Ensure that your **video dataset** and the corresponding **JSON annotation file** are placed under `Video-R1/src/r1-v/Evaluation/`.
+> Please organize the video data in the following directory structure:
+> ```
+> Video-R1/
+> ├── src/
+> ├──├──r1-v/
+> ├──├──├──Evaluation/
+> ├──├──├──├── CVBench.json/
+> ├──├──├──├── CVBench/
+> ├──├──├──├──├── 0...
+> ```
 ```bash
 # Build environment
 cd Video-R1
@@ -100,7 +109,13 @@ bash ./src/eval_bench.sh
 
 ### 🔬 lmms-eval Evaluation
 
-> ⚠️ Ensure that your **video dataset** and the corresponding **hf_format_dataset in `./Eval/lmms-eval/lmms_eval/tasks/mvr/mvr.yaml`** match.
+> ⚠️ **Dataset Configuration**: Ensure that your **video dataset** and the corresponding **hf_format_dataset in `lmms-eval/lmms_eval/tasks/mvr/mvr.yaml`** match.
+> 
+> **Configuration Details**:
+> - `dataset_path: ../mvr_dataset` - Points to the **HuggingFace format dataset** containing QA pairs and metadata
+> - `cache_dir: ../Video-R1/src/r1-v/Evaluation/CVBench` - Points to the **video files directory** where actual video data is stored
+> 
+> Make sure both paths are correctly configured to match your local setup.
 
 ```bash
 # Build environment
@@ -108,10 +123,21 @@ cd lmms-eval
 pip install -e .
 
 # Run evaluation
+# Note: Model implementations are available in lmms-eval/lmms_eval/models/
+# Replace 'your_model' with the specific model name (e.g., qwen2_5_vl)
 python3 -m accelerate.commands.launch \
     --num_processes=1 \
     -m lmms_eval \
     --model your_model \
+    --tasks mvr \
+    --batch_size 1 \
+    --output_path ./logs/
+
+# Example with Qwen2.5-VL model:
+python3 -m accelerate.commands.launch \
+    --num_processes=1 \
+    -m lmms_eval \
+    --model qwen2_5_vl \
     --tasks mvr \
     --batch_size 1 \
     --output_path ./logs/
