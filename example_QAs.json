@@ -1,0 +1,426 @@
+[
+  {
+    "id": 10,
+    "task_type": "Cross-video Scene Recognition",
+    "video_1": "102/0CGvGlXV9EI.mp4",
+    "video_2": "102/DQq6HGVI2JA.mp4",
+    "video_3": "102/pLEBEeEShiY.mp4",
+    "video_4": "102/rBGGzMfGFhw.mp4",
+    "question": "Which scene is depicted as a critical part of baking across all videos?",
+    "options": [
+      "A. Cookie spreading.",
+      "B. Temperature measuring.",
+      "C. Dough kneading.",
+      "D. Ingredient weighing."
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 11,
+    "task_type": "Cross-video Anomaly Detection",
+    "video_1": "102/0CGvGlXV9EI.mp4",
+    "video_2": "102/DQq6HGVI2JA.mp4",
+    "video_3": "102/pLEBEeEShiY.mp4",
+    "video_4": "102/rBGGzMfGFhw.mp4",
+    "question": "What abnormal deviation is observed in the precision of baking across the videos that deserves attention?",
+    "options": [
+      "A. Dough not properly kneaded.",
+      "B. Inconsistent use of Thermometer.",
+      "C. Incorrect scale measurement.",
+      "D. Uneven cookie distribution."
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 12,
+    "task_type": "Cross-video Object Recognition",
+    "video_1": "102/0CGvGlXV9EI.mp4",
+    "video_2": "102/DQq6HGVI2JA.mp4",
+    "video_3": "102/pLEBEeEShiY.mp4",
+    "video_4": "102/rBGGzMfGFhw.mp4",
+    "question": "What kind of thing appears in multiple videos as an essential part of baking?",
+    "options": [
+      "A. Oven.",
+      "B. Digital thermometer.",
+      "C. Ingredients Flour.",
+      "D. Digital kitchen scale."
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 13,
+    "task_type": "Multi-view Scene Understanding",
+    "video_1": "102/0CGvGlXV9EI.mp4",
+    "video_2": "102/DQq6HGVI2JA.mp4",
+    "video_3": "102/pLEBEeEShiY.mp4",
+    "video_4": "102/rBGGzMfGFhw.mp4",
+    "question": "How do the videos collectively demonstrate achieving a perfect bake?",
+    "options": [
+      "A. By emphasizing dough elasticity and texture in kneading.",
+      "B. Through proper heat distribution and oven settings.",
+      "C. By precise measurement and monitoring.",
+      "D. Through rapid baking techniques without equipment."
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 14,
+    "task_type": "Joint-video Summarization",
+    "video_1": "102/0CGvGlXV9EI.mp4",
+    "video_2": "102/DQq6HGVI2JA.mp4",
+    "video_3": "102/pLEBEeEShiY.mp4",
+    "video_4": "102/rBGGzMfGFhw.mp4",
+    "question": "Summarize the comprehensive theme presented across all videos.",
+    "options": [
+      "A. Extensive guide to preparing baked goods using precision baking.",
+      "B. Exploration of different baking textures from cookies to bread.",
+      "C. Step-by-step guide for efficient equipment use in baking.",
+      "D. Detailed analysis of baking temperature control techniques."
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 32,
+    "task_type": "Multi-video Key-Action Recognition",
+    "video_1": "110/L-gixzvUN1A.mp4",
+    "video_2": "110/ZN23xy8sY-8.mp4",
+    "video_3": null,
+    "video_4": null,
+    "question": "What is the key action difference between the presenter in Video 1 and the presenter in Video 2?",
+    "options": [
+      "A. In Video 1, holding products is key, while in Video 2, gesturing with hands dominates.",
+      "B. In Video 1, gesturing is emphasized more, while in Video 2, interacting with products is dominant.",
+      "C. In both, sitting is a primary action, but outdoor walking is unique to Video 2.",
+      "D. Video 2 uses textual prompts for interactions, while Video 1 does not."
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 33,
+    "task_type": "Cross-video Event Retrieval",
+    "video_1": "110/L-gixzvUN1A.mp4",
+    "video_2": "110/ZN23xy8sY-8.mp4",
+    "video_3": null,
+    "video_4": null,
+    "question": "Which video conveys the theme of overcoming negative traits like fear or jealousy?",
+    "options": [
+      "A. Video 1.",
+      "B. Video 2.",
+      "C. Both Video 1 and Video 2.",
+      "D. Neither Video 1 nor Video 2."
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 34,
+    "task_type": "Cross-video Object Recognition",
+    "video_1": "110/L-gixzvUN1A.mp4",
+    "video_2": "110/ZN23xy8sY-8.mp4",
+    "video_3": null,
+    "video_4": null,
+    "question": "Are the main characters in the two videos the same person?",
+    "options": [
+      "Yes.",
+      "No."
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": 35,
+    "task_type": "Multi-video Attribute Recognition",
+    "video_1": "110/L-gixzvUN1A.mp4",
+    "video_2": "110/ZN23xy8sY-8.mp4",
+    "video_3": null,
+    "video_4": null,
+    "question": "What visual attribute connects the individual in both videos?",
+    "options": [
+      "A. The use of branded products.",
+      "B. Vibrant blue shirt.",
+      "C. Outdoor settings.",
+      "D. Silver watch."
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 36,
+    "task_type": "Joint-video Summarization",
+    "video_1": "110/L-gixzvUN1A.mp4",
+    "video_2": "110/ZN23xy8sY-8.mp4",
+    "video_3": null,
+    "video_4": null,
+    "question": "Which theme matches the philosophical undertone found in both videos?",
+    "options": [
+      "A. Emotions drive success.",
+      "B. Negative emotions hinder growth.",
+      "C. Innovation leads to status.",
+      "D. Branding aligns with wisdom."
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 67,
+    "task_type": "Cross-video Procedural Transfer",
+    "video_1": "126/AHSqiRzhFHk.mp4",
+    "video_2": "126/BGTsyYQq0xs.mp4",
+    "video_3": null,
+    "video_4": null,
+    "question": "Based on the clinical knowledge in Video 1, what should a person in Video 2 do to address a sore throat?",
+    "options": [
+      "A. Use a Neti Pot.",
+      "B. Rest and drink warm fluids.",
+      "C. Consult a healthcare professional.",
+      "D. Take nasal spray."
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 68,
+    "task_type": "Multi-video Temporal Reasoning",
+    "video_1": "126/AHSqiRzhFHk.mp4",
+    "video_2": "126/BGTsyYQq0xs.mp4",
+    "video_3": null,
+    "video_4": null,
+    "question": "Which character from Video 2 would most likely visit the pharmacy seen in Video 1?",
+    "options": [
+      "A. Woman in gray jacket.",
+      "B. Man in checkered shirt.",
+      "C. Woman using tissues.",
+      "D. All of them."
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 69,
+    "task_type": "Multi-video Temporal Reasoning",
+    "video_1": "126/AHSqiRzhFHk.mp4",
+    "video_2": "126/BGTsyYQq0xs.mp4",
+    "video_3": null,
+    "video_4": null,
+    "question": "Does Video 1 happen first in real situations?",
+    "options": [
+      "Yes.",
+      "No."
+    ],
+    "answer": "No"
+  },
+  {
+    "id": 125,
+    "task_type": "Cross-video Scene Recognition",
+    "video_1": "15/2tmw67TaHEE.mp4",
+    "video_2": "15/rp0yZapEKAw.mp4",
+    "video_3": null,
+    "video_4": null,
+    "question": "Do both videos depict matches involving yellow-clad players?",
+    "options": [
+      "Yes.",
+      "No."
+    ],
+    "answer": "No"
+  },
+  {
+    "id": 126,
+    "task_type": "Video Difference Caption",
+    "video_1": "15/2tmw67TaHEE.mp4",
+    "video_2": "15/rp0yZapEKAw.mp4",
+    "video_3": null,
+    "video_4": null,
+    "question": "What is a key visual difference between the matches shown in both videos?",
+    "options": [
+      "A. The jersey colors of Sport players.",
+      "B. Announcement styles of player goals.",
+      "C. Stadium crowd sizes.",
+      "D. Presence of dynamic promotional segments."
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 127,
+    "task_type": "Cross-video Event Retrieval",
+    "video_1": "15/2tmw67TaHEE.mp4",
+    "video_2": "15/rp0yZapEKAw.mp4",
+    "video_3": null,
+    "video_4": null,
+    "question": "Which video contains a match where players score from a penalty kick?",
+    "options": [
+      "A. Video 1.",
+      "B. Video 2.",
+      "C. Both videos.",
+      "D. Neither video."
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 247,
+    "task_type": "Cross-video Entity Matching",
+    "video_1": "205/W4KjYC51B-c_seg1.mp4",
+    "video_2": "205/W4KjYC51B-c_seg2.mp4",
+    "video_3": "205/W4KjYC51B-c_seg3.mp4",
+    "video_4": "205/W4KjYC51B-c_seg4.mp4",
+    "question": "Did the player with number 19 receive emergency assistance in all the relevant videos?",
+    "options": [
+      "Yes.",
+      "No."
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": 248,
+    "task_type": "Multi-video Temporal Reasoning",
+    "video_1": "205/W4KjYC51B-c_seg1.mp4",
+    "video_2": "205/W4KjYC51B-c_seg2.mp4",
+    "video_3": "205/W4KjYC51B-c_seg3.mp4",
+    "video_4": "205/W4KjYC51B-c_seg4.mp4",
+    "question": "Based on the interconnections, what is the correct chronological order of the rescue process depicted across the videos?",
+    "options": [
+      "A. 3-4-1-2.",
+      "B. 4-1-2-3.",
+      "C. 1-2-3-4.",
+      "D. 2-4-3-1."
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 249,
+    "task_type": "Multi-view Scene Understanding",
+    "video_1": "205/W4KjYC51B-c_seg1.mp4",
+    "video_2": "205/W4KjYC51B-c_seg2.mp4",
+    "video_3": "205/W4KjYC51B-c_seg3.mp4",
+    "video_4": "205/W4KjYC51B-c_seg4.mp4",
+    "question": "What demonstrates coordination between amateur and professional medical responses as depicted across the videos?",
+    "options": [
+      "A. Team players guiding paramedics.",
+      "B. Coach performing CPR while paramedics arrive.",
+      "C. Players and coach initially administer aid before EMS takes over.",
+      "D. Two ambulance teams working independently without coordination."
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 269,
+    "task_type": "Multi-video Attribute Recognition",
+    "video_1": "213/TFxRJu45jv8_seg1.mp4",
+    "video_2": "213/TFxRJu45jv8_seg2.mp4",
+    "video_3": "213/TFxRJu45jv8_seg3.mp4",
+    "video_4": null,
+    "question": "In which clothing was the child who appears in all three videos?",
+    "options": [
+      "A. Beige patterned top and red shorts.",
+      "B. Blue shirt and shorts.",
+      "C. Red shirt and dark shorts.",
+      "D. No shirt and green shorts."
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 270,
+    "task_type": "Joint-video Spatial Navigating",
+    "video_1": "213/TFxRJu45jv8_seg1.mp4",
+    "video_2": "213/TFxRJu45jv8_seg2.mp4",
+    "video_3": "213/TFxRJu45jv8_seg3.mp4",
+    "video_4": null,
+    "question": "If sitting on a large chair close to the television, how to get to the stove?",
+    "options": [
+      "A. Head to the top-right corner to enter the kitchen and stove is located in the top-right corner of the kitchen.",
+      "B. Head to the top-left corner to enter the kitchen and stove is located in the top-left corner of the kitchen.",
+      "C. Head to the top-right corner to enter the kitchen and stove is located in the top-left corner of the kitchen.",
+      "D. Head to the top-left corner to enter the kitchen and stove is located in the top-right corner of the kitchen."
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 271,
+    "task_type": "Cross-video Event Retrieval",
+    "video_1": "213/TFxRJu45jv8_seg1.mp4",
+    "video_2": "213/TFxRJu45jv8_seg2.mp4",
+    "video_3": "213/TFxRJu45jv8_seg3.mp4",
+    "video_4": null,
+    "question": "Which of the following videos features a playful interaction between two children?",
+    "options": [
+      "A. Video 1.",
+      "B. Video 2.",
+      "C. Video 3.",
+      "D. None of the above."
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 411,
+    "task_type": "Multi-video Attribute Recognition",
+    "video_1": "275/5-l2ZEBGxlE.mp4",
+    "video_2": "275/9xNtesWU4wo.mp4",
+    "video_3": null,
+    "video_4": null,
+    "question": "Which of the following items is used in Video 1 but not in Video 2?",
+    "options": [
+      "A. Lemon.",
+      "B. Bleach.",
+      "C. Protective suit.",
+      "D. Cloth."
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 412,
+    "task_type": "Cross-video Procedural Transfer",
+    "video_1": "275/5-l2ZEBGxlE.mp4",
+    "video_2": "275/9xNtesWU4wo.mp4",
+    "video_3": null,
+    "video_4": null,
+    "question": "Based on the cleaning procedure in Video 1, what is a similar approach seen in Video 2?",
+    "options": [
+      "A. Use of lemon for cleaning.",
+      "B. Disinfection using chemical solutions.",
+      "C. Routine scrubbing with cloth.",
+      "D. Application of oil for protection."
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 987,
+    "task_type": "Cross-video Event Retrieval",
+    "video_1": "96/5B6ZWKRGmFI_seg1.mp4",
+    "video_2": "96/5B6ZWKRGmFI_seg2.mp4",
+    "video_3": "96/5B6ZWKRGmFI_seg3.mp4",
+    "video_4": "96/5B6ZWKRGmFI_seg4.mp4",
+    "question": "In which videos do robotic arms automate work throughout the process?",
+    "options": [
+      "A. Videos 1 and 2.",
+      "B. Videos 2, 3, and 4.",
+      "C. Videos 3 and 4.",
+      "D. Videos 1, 2, 3 and 4."
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 988,
+    "task_type": "Joint-video Summarization",
+    "video_1": "96/5B6ZWKRGmFI_seg1.mp4",
+    "video_2": "96/5B6ZWKRGmFI_seg2.mp4",
+    "video_3": "96/5B6ZWKRGmFI_seg3.mp4",
+    "video_4": "96/5B6ZWKRGmFI_seg4.mp4",
+    "question": "What overarching theme is consistent across all videos?",
+    "options": [
+      "A. Overreliance on human craftsmanship in automotive processes.",
+      "B. Integration of automated systems and quality control.",
+      "C. Semi-automatically driven vehicle production.",
+      "D. Raw material exports for third-party industries."
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 989,
+    "task_type": "Multi-video Temporal Reasoning",
+    "video_1": "96/5B6ZWKRGmFI_seg1.mp4",
+    "video_2": "96/5B6ZWKRGmFI_seg2.mp4",
+    "video_3": "96/5B6ZWKRGmFI_seg3.mp4",
+    "video_4": "96/5B6ZWKRGmFI_seg4.mp4",
+    "question": "Based on the interconnections, what is the correct chronological order of the vehicle production depicted across the videos?",
+    "options": [
+      "A. 3-4-1-2.",
+      "B. 4-1-2-3.",
+      "C. 1-4-2-3.",
+      "D. 2-3-4-1."
+    ],
+    "answer": "C"
+  }
+]

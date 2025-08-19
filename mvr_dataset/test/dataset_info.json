@@ -1,0 +1,47 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "task_type": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "video_1": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "video_2": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "video_3": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "video_4": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "options": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "answer": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}
