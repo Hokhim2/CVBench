@@ -224,10 +224,10 @@ def mvr_process_results(doc, results):
         a dictionary with key: metric name (in this case videomme score), value: metric value
     """
     pred = results[0]
-    pred_ans = extract_characters_regex(pred)
-    # gt_ans = doc["answer"].lower().strip().replace(".", "")
+    pred_ans = extract_characters_regex(pred).strip().upper()
+    gt_ans = doc["answer"].strip().upper()
 
-    data_dict = {"id": doc["id"], "task_type": doc["task_type"], "pred_answer": pred_ans, "answer": doc["answer"]}
+    data_dict = {"id": doc["id"], "task_type": doc["task_type"], "pred_answer": pred_ans, "answer": gt_ans}
 
     # return {f"videomme_perception_score": data_dict for metric in matrices}
     return {f"mvr_perception_score": data_dict}
