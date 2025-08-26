@@ -91,9 +91,9 @@ Since our work focuses on **multi-video evaluation with large models**, we made 
 > ├── src/
 > ├──├──r1-v/
 > ├──├──├──Evaluation/
-> ├──├──├──├──CVBench.json/
+> ├──├──├──├──CVBench.json
 > ├──├──├──├──CVBench/
-> ├──├──├──├──├──0...
+> ├──├──├──├──├──0/...
 > ```
 ```bash
 # Build environment
