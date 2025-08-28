@@ -150,7 +150,7 @@ python3 -m accelerate.commands.launch \
 ### Cross-Video Object Association
 
 <p align="center">
-    <img src="assets/results_1.png" width="100%" height="100%">
+    <img src="assets/results_1.png" width="60%" height="60%">
 </p>
 
 **Performance of MLLMs on CVBench regarding cross-video object association**, evaluated across closed-source and open-source MLLMs. Tasks include: cross-video object recognition (C.OR), multi-video attribute recognition (M.AR), joint-video counting (J.C), and cross-video entity match (C.EM). For human evaluation, we employed five annotators and reported the average accuracy.
