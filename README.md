@@ -1,7 +1,7 @@
 # 🎬 CVBench: Evaluating Cross-Video Synergies for Complex Multimodal Understanding and Reasoning
 
 <p align="center">
-        🤗 <a href="https://huggingface.co/datasets/Dongyh35/CVBench">Dataset</a> &nbsp&nbsp | &nbsp&nbsp 📑 <a href="#">Paper</a> &nbsp&nbsp 
+        🤗 <a href="https://huggingface.co/datasets/Dongyh35/CVBench">Dataset</a> &nbsp&nbsp | &nbsp&nbsp 📑 <a href="http://arxiv.org/abs/2508.19542">Paper</a> &nbsp&nbsp 
 </p>
 
 <div align="center">
