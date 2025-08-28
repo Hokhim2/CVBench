@@ -158,7 +158,7 @@ python3 -m accelerate.commands.launch \
 ### Cross-Video Event Association
 
 <p align="center">
-    <img src="assets/results_2.png" width="100%" height="100%">
+    <img src="assets/results_2.png" width="60%" height="60%">
 </p>
 
 **Performance of MLLMs on CVBench regarding cross-video event association**, evaluated across closed-source and open-source MLLMs. Tasks include: cross-video anomaly detection (C.AD), cross-video scene recognition (C.SR), multi-video key-action recognition (M.KAR), and cross-video event retrieval (C.ER). For human evaluation, we employed five annotators and reported the average accuracy.
